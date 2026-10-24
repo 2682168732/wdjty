@@ -824,7 +824,7 @@ footer {
 }
 
 footer > div {
-  max-width: var(--breakpoint-xl);
+  max-width: min(100%, var(--breakpoint-xl));
   margin: 0 auto;
   text-align: center;
   padding: 0 var(--spacing-md);
